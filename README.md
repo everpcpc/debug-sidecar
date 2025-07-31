@@ -2,7 +2,6 @@
 
 Debian image with tools:
 
-- tini
 - curl
 - jq
 - procps
