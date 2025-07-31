@@ -7,7 +7,6 @@ Debian image with tools:
 - procps
 - gdb
 - strace
-- ltrace
 - lsof
 - net-tools
 - iputils-ping

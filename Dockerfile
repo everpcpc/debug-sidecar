@@ -5,7 +5,6 @@ RUN apt-get update && apt-get install -y \
   procps \
   gdb \
   strace \
-  ltrace \
   lsof \
   net-tools \
   iputils-ping \
