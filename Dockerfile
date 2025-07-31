@@ -1,5 +1,7 @@
 FROM debian:bookworm-slim
+
 RUN apt-get update && apt-get install -y \
+  tini \
   curl \
   jq \
   procps \
@@ -10,4 +12,5 @@ RUN apt-get update && apt-get install -y \
   iputils-ping \
   dnsutils \
   && rm -rf /var/lib/apt/lists/*
-CMD ["tail", "-f", "/dev/null"]
+
+CMD ["tini", "--", "tail", "-f", "/dev/null"]
