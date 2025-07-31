@@ -1,6 +1,14 @@
-# alpine-curl
-Alpine image with tools:
+# debug-sidecar
+
+Debian image with tools:
+
 - curl
 - jq
-- rclone
-- zstd
+- procps
+- gdb
+- strace
+- ltrace
+- lsof
+- net-tools
+- iputils-ping
+- dnsutils
